@@ -1,0 +1,38 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  border: none;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-color: #212529;
+  color: white;
+}
+
+.sidebar a {
+  color: #adb5bd;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.sidebar a:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.sidebar .active {
+  color: white;
+  background-color: rgba(13, 110, 253, 0.3);
+}
+
+code {
+  font-size: 0.85em;
+  color: #0d6efd;
+}
